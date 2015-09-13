@@ -1,0 +1,197 @@
+body {
+  font-size: 16px;
+  background: url('shirt.jpg') no-repeat;
+  background-size: 2400px 1700px;
+  position: fixed !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.title {
+  margin-left: 14px;
+  font-size: 6rem;
+  font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+.inquiry-box {
+  font-family: 'Impact','San-Serif';
+  font-size: 50px;
+  text-align: center;
+  color: rgba(39, 22, 162, 1);
+  margin-left: 50px;
+  margin-top: 150px;
+  padding: 25px;
+  background-color: rgba(245,245,245,.8);
+  width: 350px;
+  height: 500px;
+  border: 3px solid blue;
+  border-radius: 15px;
+}
+.hello-sticker {
+  background-color: rgb(255,0,0);
+  border: 20px solid white;
+  border-radius: 60px;
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  top: 700px;
+  left: 1150px;
+
+}
+.hello-space {
+  color: white;
+  text-align: center;
+  /*height: 250px;*/
+}
+
+.drop-shadow {
+  box-shadow: 15px 10px 100px -15px;
+}
+
+
+
+/* lifted corner shadow */
+/*.drop-shadow {
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}
+
+.drop-shadow:before,
+.drop-shadow:after {
+    content:"";
+    position:absolute;
+    z-index:-2;
+}
+
+.drop-shadow p {
+    font-size:16px;
+    font-weight:bold;
+} */
+
+/* Lifted corners */
+
+/*.lifted {
+    -moz-border-radius:60px;
+         border-radius:60px;
+}
+
+.lifted:before,
+.lifted:after {
+    bottom: 165px;
+    left:210px;
+    width:350px;
+    height:200px;
+    border-radius: 60px;
+    -webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+       -moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+            box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+    -webkit-transform:rotate(-3deg);
+       -moz-transform:rotate(-3deg);
+        -ms-transform:rotate(-3deg);
+         -o-transform:rotate(-3deg);
+            transform:rotate(-3deg);
+}
+
+.lifted:after {
+    right:188px;
+    left: 850px;
+    -webkit-transform:rotate(3deg);
+       -moz-transform:rotate(3deg);
+        -ms-transform:rotate(3deg);
+         -o-transform:rotate(3deg);
+            transform:rotate(3deg);
+} */
+/* end lifted corner shadow */
+h1 {
+  margin: 0 auto;
+  font-family: 'Arial Black', sans-serif;
+  font-size: 8rem;
+  letter-spacing: 10px;
+}
+h3 {
+  margin: -25px auto 0 auto;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 3rem;
+}
+svg {
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 0;
+  height: 225px;
+  width: 750px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#letters-D {
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  animation: dash 1s linear forwards;
+  display: block;
+ fill:none;
+ stroke-width: 15px;
+ stroke:blue;
+}
+#letters-avid {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+  animation: dash 2s linear .9s forwards;
+  display: block;
+ fill:none;
+ stroke-width: 15px;
+ stroke:blue;
+}
+#letters-dot {
+  stroke-dasharray: 80;
+  stroke-dashoffset: 80;
+  animation: dash .5s linear 2.5s forwards;
+  display: block;
+ fill:none;
+ stroke-width: 5px;
+ stroke: blue;
+}
+#letters-H-first {
+  stroke-dasharray:  800;
+  stroke-dashoffset: 800;
+  animation: dash .7s linear 2.9s forwards;
+  display: block;
+ fill:none;
+ stroke-width: 15px;
+ stroke:blue;
+}
+#letters-H-last {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: dash .8s linear 3.6s forwards;
+  display: block;
+ fill:none;
+ stroke-width: 15px;
+ stroke:blue;
+}
+#letters-ayes {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+  animation: dash 2s linear 4.2s forwards;
+  display: block;
+ fill:none;
+ stroke-width: 15px;
+ stroke:blue;
+}
+
+.container {
+  margin: 0px;
+  background-color: white;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes .path {
+
+}
