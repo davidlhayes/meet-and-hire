@@ -1,7 +1,6 @@
-CREATE DATABASE weddingrsvp;
+CREATE DATABASE meetrsvp;
 
-\c weddingrsvp;
+\c meetrsvp;
 
 CREATE TABLE responses (id SERIAL PRIMARY KEY, name VARCHAR(255),
-  hasplusone BOOLEAN, isattending BOOLEAN);
-  
+  company VARCHAR(255), isattending BOOLEAN);

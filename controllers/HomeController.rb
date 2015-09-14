@@ -8,8 +8,8 @@ class HomeController < ApplicationController
     puts params
     @rsvp = ResponsesModel.new
     @rsvp.name = params[:name]
+    @rsvp.company = params[:company]
     @rsvp.isattending = params.has_key?('isattending')
-    @rsvp.hasplusone = params.has_key?('hasplusone')
     @rsvp.save
 
     @confirmation_message = 'Thank you!'
